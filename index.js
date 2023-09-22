@@ -38,12 +38,12 @@ function writeCards(arr,event) {
     // Loop the passed-in array of receivers, add thanks meesage for them
     for (let i = 0; i < arr.length; i++){
         count += 1;
-        msg = msg + `Thank you ${arr[i]} for your wonderful ${event} gift!`;
+        msg = `Thank you, ${arr[i]}, for the wonderful ${event} gift!`;
         debugger; 
-        
+        friends.push(msg);
         
     }
-    friends.push(msg);
+    
     console.log(friends);  
     //let newFriends = [...friends,`msg`];
     return friends;
