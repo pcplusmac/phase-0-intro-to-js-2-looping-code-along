@@ -52,3 +52,14 @@ function writeCards(arr,event) {
 }
 
 writeCards(["ali","tony","alex"],"birthday");
+
+// Create countdonw function 
+function countDown(num) {
+    let index = num;
+    while (index >= 0) {
+        console.log(index)
+        index--;
+    }
+}
+
+countDown(9);
